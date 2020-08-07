@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: cursive;
+}
+
+.wrapper {
+  max-width: 720px;
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  padding: 2em;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+header p {
+  font-weight: bold;
+}
+
+main {
+  padding: 2em;
+}
+
+.center {
+  text-align: center;
+  border: 1px solid #00b7ff;
+}
+
+.section--head {
+  padding: 1em 0 0.5em;
+}
+
+.flex-column {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+pre.error {
+  padding: 0 5rem;
+  line-height: 3;
+  white-space: pre-line;
+}
+
+footer {
+  padding: 1em;
+  text-align: center;
+  margin-top: auto;
+}
